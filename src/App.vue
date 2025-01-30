@@ -1,15 +1,9 @@
 <script setup lang="ts" >
-import ChartWidget from './chart/ChartWidget.vue'
-import ScopeSelector from './components/ScopeSelector.vue'
-import { useProvideGlobalContext } from './global-context';
+import { RouterView } from 'vue-router';
 
-useProvideGlobalContext()
 
 </script>
 
 <template>
-  <ScopeSelector />
-
-  <ChartWidget />
-  <ChartWidget />
+  <RouterView />
 </template>

@@ -1,4 +1,4 @@
-# Vite Vue Starter
+# Vue Context Example
 
 
 Here is an example project showcasing the proposed State Management for the Errors Revamp.
